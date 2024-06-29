@@ -35,6 +35,8 @@ namespace _Project.Ray_Tracer.Scripts
         [SerializeField] private RTLight lightPrefab;
         [SerializeField] private RTMesh goatPrefab;
         [SerializeField] private RTMesh spherePrefab;
+        //[SerializeField] private RTMesh originalObjPrefab;
+        //[SerializeFiled] private RTMesh deformedObjPrefab;
         [SerializeField] private RTMesh cubePrefab;
         [SerializeField] private RTMesh capsulePrefab;
         [SerializeField] private RTMesh cylinderPrefab;
@@ -73,6 +75,8 @@ namespace _Project.Ray_Tracer.Scripts
             Light,
             Goat,
             Sphere,
+            //OriginalObject,
+            //DeformedObject,
             Cube,
             Capsule,
             Cylinder,
@@ -306,6 +310,12 @@ namespace _Project.Ray_Tracer.Scripts
                 case ObjectType.Sphere:
                     mesh = Instantiate(spherePrefab);
                     break;
+                /*case ObjectType.OriginalObject:
+                    mesh = Instantiate(originalObjPrefab);
+                    break;
+                case ObjectType.DeformedObject:
+                    mesh = Instantiate(deformedObjPrefab);
+                    break;*/
                 case ObjectType.Cube:
                     mesh = Instantiate(cubePrefab);
                     break;

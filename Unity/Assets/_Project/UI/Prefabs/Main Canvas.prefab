@@ -199,7 +199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Title
+  m_text: Anamorphic Sculptures
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -923,7 +923,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wow, this is some nice text. I really love this text.
+  m_text: Anamorphism is awesome.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1043,7 +1043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 4443556965519002242}
-  _hudRefreshRate: 1
+  hudRefreshRate: 1
 --- !u!1 &6717022461433079295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Header
+  m_text: 'Anamorphism
 
 '
   m_isRightToLeft: 0
@@ -3166,11 +3166,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2119de05aa7d8142a2742419229ba6f, type: 3}
---- !u!224 &6219367594320379823 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 614682123080959009, guid: e2119de05aa7d8142a2742419229ba6f, type: 3}
-  m_PrefabInstance: {fileID: 6829827317067201422}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3497289063075252047 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7944549982084349121, guid: e2119de05aa7d8142a2742419229ba6f, type: 3}
@@ -3182,6 +3177,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d20830f4a27bb4aaf595359c8f86de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &6219367594320379823 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 614682123080959009, guid: e2119de05aa7d8142a2742419229ba6f, type: 3}
+  m_PrefabInstance: {fileID: 6829827317067201422}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8974539175353831071
 PrefabInstance:
   m_ObjectHideFlags: 0
