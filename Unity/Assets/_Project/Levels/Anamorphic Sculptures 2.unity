@@ -586,7 +586,7 @@ PrefabInstance:
     - target: {fileID: 1938161596217203700, guid: 46ac4ca1f3ae1fa0abba7d5d15963b63, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 648b946e118b362478ab875195acfb16, type: 2}
+      objectReference: {fileID: 2100000, guid: 3b3a7103ecafce597b0d04483fcd7739, type: 2}
     - target: {fileID: 1943894928092703155, guid: 46ac4ca1f3ae1fa0abba7d5d15963b63, type: 3}
       propertyPath: MirrorMaterial
       value: 
@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 441551137}
   - component: {fileID: 441551136}
   m_Layer: 5
-  m_Name: Rasterization Limitations Title
+  m_Name: Cylinder Mirror Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Rasterization Limitations
+  m_text: Anamorphic Deformation using a Cylindrical Mirror
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1329,7 +1329,7 @@ GameObject:
   - component: {fileID: 844007641}
   - component: {fileID: 844007640}
   m_Layer: 5
-  m_Name: Rasterization Limitations Text
+  m_Name: Cylinder Mirror Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1374,15 +1374,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'In the next scene the back wall has been given a mirror like material.
-    You may note that it does not look very convincing in the application. This is
-    because the application uses a rendering technique called rasterization that
-    is much faster, but much less accurate, than ray tracing. While it is possible
-    to achieve good looking reflections using rastererization, it is quite difficult
-    to implement. This nicely demonstrates one of the main advantages of ray tracing:
-    while rather slow, you get all kinds of delightful features like reflections
-    for (almost) free. Please click the "Render Image" button to see the proper ray
-    traced reflections.'
+  m_text: The centre of the scene features a cylindrical mirror. Behind the mirror,
+    close to the back wall, is the original object. In front of the mirror is the
+    camera (point of view). Between the camera and mirror, we have the deformed object.
+    By using the "Ray Tracer" on the right, we can fly to the perspective of the
+    camera. Through the pixel screen, we are able to see the deformed object, the
+    mirror behind it, and the reflection of the object on the mirror surface. The
+    reflection should look similar to the original object, referenced behind the
+    mirror. To see an unobstructed view of the object and its reflection, click on
+    "Render image".
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1784,7 +1784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2111999565944171208, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_text
-      value: Reflections
+      value: Anamorphic Sculptures 2
       objectReference: {fileID: 0}
     - target: {fileID: 2163042461641276075, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3548,7 +3548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6129814155392411782, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_Name
-      value: Reflection Rays Text
+      value: Anamorphosis Text
       objectReference: {fileID: 0}
     - target: {fileID: 6253596058263854754, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3812,7 +3812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6717022461433079295, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_Name
-      value: Reflection Rays Title
+      value: Anamorphosis Title
       objectReference: {fileID: 0}
     - target: {fileID: 6730378618904149513, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4072,7 +4072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7217484268164782550, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_text
-      value: Reflection Rays
+      value: Anamorphosis and Anamorphic Art
       objectReference: {fileID: 0}
     - target: {fileID: 7242627487817735196, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4580,15 +4580,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8814068479164366629, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_text
-      value: Because ray tracing is based on how light behaves in the real world,
-        we can relatively easily implement more advanced features such as reflections.
-        Whenever we encounter a reflective surface, all we have to do is to cast
-        a ray in the reflected direction. This reflection ray then behaves just like
-        a ray cast from the camera, and therefore it will produce a color. This color
-        can be mixed into the original ray's color with an intensity depending on
-        the reflectivity (also called specularity) of the surface. This results in
-        very convincing reflections without making the ray tracer much more complicated.
-        However, casting more rays will of course make rendering take longer.
+      value: "Anamorphosis requires the viewer to look at the distorted projection
+        of an image/object from a specific point of view, and/or through a certain
+        media, in order to distinguish a recognizable image/object. Anamorphic sculptures
+        represent 3D deformed objects whose real form can be seen when glimpsed in
+        their reflection on a mirror or by looking at them through certain optic
+        media.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 8833616608997001579, guid: 60ed96064c5523b46b7a7bd67e36e6d7, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4857,7 +4854,7 @@ GameObject:
   - component: {fileID: 1344304993}
   - component: {fileID: 1344304992}
   m_Layer: 5
-  m_Name: Settings Text
+  m_Name: Reflection Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4902,12 +4899,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The next scene demonstrates reflections. This means that you can now change
-    the specularity and shininess of materials. A setting that also is interesting
-    now is the recursion depth. This effectively controls how many reflections can
-    happen in a row. Please experiment with this setting and see how it changes the
-    reflection rays cast and the final render. The reflection rays are colored a
-    brighter blue.
+  m_text: "The reflection rays of an object on a specular object (mirror) can be
+    used to create distorted objects (sculptures). We need three things in to do
+    this: a point of view (camera), a mirror (can have any shape), and the object
+    we want to deform. A ray shoots from the camera to a point on the object. On
+    its way to the object, the ray passes through the mirror. The intersection points
+    of the ray with the mirror are calculated. The intersection point closest to
+    the object is taken and the reflection ray at this point is determined. Next,
+    we take determine the distance between the point on the object and the intersection
+    point of the ray with the mirror. We call this distance D. The new \"distorted\"
+    point will be displaced along the reflection ray at distance D from the intersection
+    point. The process is repeated for all of the points of the object. \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5444,7 +5446,7 @@ GameObject:
   - component: {fileID: 1730511475}
   - component: {fileID: 1730511474}
   m_Layer: 5
-  m_Name: Settings Title
+  m_Name: Reflection Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5489,7 +5491,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settings
+  m_text: Anamorphic Deformation through Reflection
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5977,7 +5979,7 @@ PrefabInstance:
     - target: {fileID: 1938161596217203700, guid: 46ac4ca1f3ae1fa0abba7d5d15963b63, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 648b946e118b362478ab875195acfb16, type: 2}
+      objectReference: {fileID: 2100000, guid: 3b3a7103ecafce597b0d04483fcd7739, type: 2}
     - target: {fileID: 1943894928092703155, guid: 46ac4ca1f3ae1fa0abba7d5d15963b63, type: 3}
       propertyPath: shadeSmooth
       value: 0
@@ -5996,7 +5998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2508341585415502816, guid: 46ac4ca1f3ae1fa0abba7d5d15963b63, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2508341585415502816, guid: 46ac4ca1f3ae1fa0abba7d5d15963b63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6004,7 +6006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2508341585415502816, guid: 46ac4ca1f3ae1fa0abba7d5d15963b63, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.417
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 2508341585415502816, guid: 46ac4ca1f3ae1fa0abba7d5d15963b63, type: 3}
       propertyPath: m_LocalPosition.z
