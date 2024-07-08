@@ -716,15 +716,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.648
+      value: -6.3
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9935719
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.11320323
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalRotation.y
@@ -736,7 +736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 13
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -5755,11 +5755,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2869057598925096038, guid: aa7cec59df0025d4896ac99db41e4250, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.617
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2869057598925096038, guid: aa7cec59df0025d4896ac99db41e4250, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.648
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2869057598925096038, guid: aa7cec59df0025d4896ac99db41e4250, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6319,16 +6319,28 @@ PrefabInstance:
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7244207
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6340,15 +6352,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9961947
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.08715578
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7910811949946499377, guid: 9ac94aaf218c9ec42b5facddd1fbdbc4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
