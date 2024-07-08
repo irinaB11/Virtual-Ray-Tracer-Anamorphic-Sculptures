@@ -1082,9 +1082,9 @@ MonoBehaviour:
     its way to the object, the ray passes through the mirror. The intersection points
     of the ray with the mirror are calculated. The intersection point closest to
     the object is taken and the reflection ray at this point is determined. Next,
-    we take determine the distance between the point on the object and the intersection
-    point of the ray with the mirror. We call this distance D. The new \"distorted\"
-    point will be displaced along the reflection ray at distance D from the intersection
+    we take the distance between the point on the object and the intersection point
+    of the ray with the mirror. We call this distance D. The new \"distorted\" point
+    will be displaced along the reflection ray at distance D from the intersection
     point. The process is repeated for all of the points of the object. \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5931,7 +5931,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: At the centre of the scene, we have a mirror in the shape of a mirror.
+  m_text: At the centre of the scene, we have a mirror in the shape of a sphere.
     In front of this mirror, we have the camera, and behind it we have the original
     object. The deformed object sits behind the camera. So, the camera is between
     the deformed object and the mirror. By clicking on "Fly to camera" in the "Ray
@@ -6232,15 +6232,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2041965123126994851, guid: b804ec14a001f1e4485fbbd9d4c9474e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2041965123126994851, guid: b804ec14a001f1e4485fbbd9d4c9474e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2041965123126994851, guid: b804ec14a001f1e4485fbbd9d4c9474e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2041965123126994851, guid: b804ec14a001f1e4485fbbd9d4c9474e, type: 3}
       propertyPath: m_LocalPosition.x

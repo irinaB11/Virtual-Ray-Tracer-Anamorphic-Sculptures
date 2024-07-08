@@ -686,15 +686,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2041965123126994851, guid: b804ec14a001f1e4485fbbd9d4c9474e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2041965123126994851, guid: b804ec14a001f1e4485fbbd9d4c9474e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2041965123126994851, guid: b804ec14a001f1e4485fbbd9d4c9474e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2041965123126994851, guid: b804ec14a001f1e4485fbbd9d4c9474e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1156,19 +1156,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.8
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9990483
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.043619405
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1180,7 +1180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7449909581131666509, guid: 5fc8c8504cfcb20419ce26b1a6a38fe5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1376,13 +1376,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: The centre of the scene features a cylindrical mirror. Behind the mirror,
     close to the back wall, is the original object. In front of the mirror is the
-    camera (point of view). Between the camera and mirror, we have the deformed object.
-    By using the "Ray Tracer" on the right, we can fly to the perspective of the
-    camera. Through the pixel screen, we are able to see the deformed object, the
-    mirror behind it, and the reflection of the object on the mirror surface. The
-    reflection should look similar to the original object, referenced behind the
-    mirror. To see an unobstructed view of the object and its reflection, click on
-    "Render image".
+    camera (point of view). The camera is positioned between the mirror and the deformed
+    object. By using the "Ray Tracer" panel on the right, we can fly to the perspective
+    of the camera. Through the pixel screen, we are able to see the reflection of
+    the object on the mirror surface. The reflection should look similar to the original
+    object, referenced behind the mirror. To see an unobstructed view of the object
+    and its reflection, click on "Render image".
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4906,9 +4905,9 @@ MonoBehaviour:
     its way to the object, the ray passes through the mirror. The intersection points
     of the ray with the mirror are calculated. The intersection point closest to
     the object is taken and the reflection ray at this point is determined. Next,
-    we take determine the distance between the point on the object and the intersection
-    point of the ray with the mirror. We call this distance D. The new \"distorted\"
-    point will be displaced along the reflection ray at distance D from the intersection
+    we take the distance between the point on the object and the intersection point
+    of the ray with the mirror. We call this distance D. The new \"distorted\" point
+    will be displaced along the reflection ray at distance D from the intersection
     point. The process is repeated for all of the points of the object. \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5897,11 +5896,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2869057598925096038, guid: aa7cec59df0025d4896ac99db41e4250, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.617
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2869057598925096038, guid: aa7cec59df0025d4896ac99db41e4250, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.648
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 2869057598925096038, guid: aa7cec59df0025d4896ac99db41e4250, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5949,7 +5948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3379506522100200911, guid: aa7cec59df0025d4896ac99db41e4250, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 3379506522100200911, guid: aa7cec59df0025d4896ac99db41e4250, type: 3}
       propertyPath: m_LocalRotation.z
@@ -6213,12 +6212,24 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.9
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6234,15 +6245,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.99984777
+      value: 0.9999939
       objectReference: {fileID: 0}
     - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.01745245
+      value: 0.0034905854
       objectReference: {fileID: 0}
     - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -2
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 2335718300350866148, guid: 5fb3d131cd4c407408ff2dd0767edd47, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
